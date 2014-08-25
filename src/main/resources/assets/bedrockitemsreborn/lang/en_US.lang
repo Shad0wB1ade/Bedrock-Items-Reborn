@@ -1,0 +1,18 @@
+﻿
+item.bedrockShards.name=Bedrock Shards
+item.bedrockChunk.name=Bedrock Chunk
+item.bedrockIngot.name=Bedrock Ingot
+item.diamondStick.name=Diamond Stick
+item.diamondNugget.name=Diamond Nugget
+item.obsidiamondStick.name=Diamond Stick
+
+item.bedrockSword.name=Bedrock Sword
+item.bedrockPickaxe.name=Bedrock Pickaxe
+item.bedrockShovel.name=Bedrock Shovel
+item.bedrockAxe.name=Bedrock Axe
+item.bedrockHoe.name=Bedrock Hoe
+item.bedrockShears.name=Bedrock Shears
+
+item.emeraldPickaxe.name=Emerald Pickaxe
+
+tile.bedrockOre.name=Bedrock Ore
