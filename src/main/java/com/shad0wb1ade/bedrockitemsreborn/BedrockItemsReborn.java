@@ -16,6 +16,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class BedrockItemsReborn {
 
     @SidedProxy(clientSide = Refs.CLIENTPROXY, serverSide = Refs.COMMONPROXY)
+    public static CommonProxy proxy;
 
     @Mod.Instance(Refs.MODID)
     public static BedrockItemsReborn instance;
@@ -30,6 +31,7 @@ public class BedrockItemsReborn {
     public void init(FMLInitializationEvent event) {
         BIRRecipes.init();
         GameRegistry.registerWorldGenerator(new WorldGenHandler(), 0);
+        proxy.registerRenderers();
         LogHelper.info("Initialization Complete");
     }
     @EventHandler
