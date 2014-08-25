@@ -10,7 +10,7 @@ import net.minecraftforge.common.util.EnumHelper;
 public class BIRItems {
     //Tool Materials
     public static ToolMaterial BedrockMaterial = EnumHelper.addToolMaterial("BedrockMaterial", 5, -1, 16.0F, 4.0F, 64);
-    public static ToolMaterial EmeraldMaterial = EnumHelper.addToolMaterial("EmeraldMaterial", 4, 256, 12.0F, 4.0F, 64);
+    public static ToolMaterial EmeraldMaterial = EnumHelper.addToolMaterial("EmeraldMaterial", 4, 256, 10.0F, 3.0F, 32);
 
     //Basic Items
     public static final Item BedrockShards = new BedrockShards();
