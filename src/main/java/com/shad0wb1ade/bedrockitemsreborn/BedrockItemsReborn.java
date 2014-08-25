@@ -3,6 +3,7 @@ package com.shad0wb1ade.bedrockitemsreborn;
 import com.shad0wb1ade.bedrockitemsreborn.init.*;
 import com.shad0wb1ade.bedrockitemsreborn.utilities.LogHelper;
 import com.shad0wb1ade.bedrockitemsreborn.utilities.WorldGenHandler;
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.Mod;
@@ -13,6 +14,8 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = Refs.MODID, name = Refs.MODNAME, version = Refs.VERSION)
 public class BedrockItemsReborn {
+
+    @SidedProxy(clientSide = Refs.CLIENTPROXY, serverSide = Refs.COMMONPROXY)
 
     @Mod.Instance(Refs.MODID)
     public static BedrockItemsReborn instance;
