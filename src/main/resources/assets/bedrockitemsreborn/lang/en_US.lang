@@ -1,18 +1,23 @@
-﻿
-item.bedrockShards.name=Bedrock Shards
-item.bedrockChunk.name=Bedrock Chunk
-item.bedrockIngot.name=Bedrock Ingot
-item.diamondStick.name=Diamond Stick
-item.diamondNugget.name=Diamond Nugget
-item.obsidiamondStick.name=Diamond Stick
+﻿# Bedrock Items Reborn English Localization File #
 
-item.bedrockSword.name=Bedrock Sword
-item.bedrockPickaxe.name=Bedrock Pickaxe
-item.bedrockShovel.name=Bedrock Shovel
-item.bedrockAxe.name=Bedrock Axe
-item.bedrockHoe.name=Bedrock Hoe
-item.bedrockShears.name=Bedrock Shears
+item.bedrockitemsreborn:diamondNugget.name=Diamond Nugget
+item.bedrockitemsreborn:diamondStick.name=Diamond Stick
+item.bedrockitemsreborn:obsidianStick.name=Obsidian Stick
+item.bedrockitemsreborn:bedrockShard.name=Bedrock Shard
+item.bedrockitemsreborn:bedrockChunk.name=Bedrock Chunk
+item.bedrockitemsreborn:bedrockNugget.name=Bedrock Nugget
+item.bedrockitemsreborn:bedrockIngot.name=Bedrock Ingot
 
-item.emeraldPickaxe.name=Emerald Pickaxe
+item.bedrockitemsreborn:emeraldPickaxe.name=Emerald Pickaxe
+item.bedrockitemsreborn:bedrockSword.name=Bedrock Sword
+item.bedrockitemsreborn:bedrockPickaxe.name=Bedrock Pickaxe
+item.bedrockitemsreborn:bedrockSpade.name=Bedrock Shovel
+item.bedrockitemsreborn:bedrockAxe.name=Bedrock Axe
+item.bedrockitemsreborn:bedrockHoe.name=Bedrock Hoe
+item.bedrockitemsreborn:bedrockShears.name=Bedrock Shears
+item.bedrockitemsreborn:bedrockPaxel.name=Bedrock Paxel
 
-tile.bedrockOre.name=Bedrock Ore
+item.bedrockitemsreborn:bedrockHelmet.name=Bedrock Helmet
+item.bedrockitemsreborn:bedrockChestplate.name=Bedrock Chestplate
+item.bedrockitemsreborn:bedrockLeggings.name=Bedrock Leggings
+item.bedrockitemsreborn:bedrockBoots.name=Bedrock Boots
