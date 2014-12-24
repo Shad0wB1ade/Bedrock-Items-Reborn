@@ -11,7 +11,7 @@ import net.shad0wb1ade.bedrockitemsreborn.init.BIRGameObjects;
 import net.shad0wb1ade.bedrockitemsreborn.proxies.CommonProxy;
 import net.shad0wb1ade.bedrockitemsreborn.references.Refs;
 
-@Mod(modid = Refs.MOD_ID, name = Refs.MOD_NAME,version = Refs.MOD_VERSION)
+@Mod(modid = Refs.MOD_ID, name = Refs.MOD_NAME, version = Refs.MOD_VERSION)
 public class BedrockItemsReborn
 {
     @Mod.Instance(Refs.MOD_ID)
@@ -24,6 +24,9 @@ public class BedrockItemsReborn
     public void preInit(FMLPreInitializationEvent event)
     {
         BIRGameObjects.initItems();
+        BIRGameObjects.initBlocks();
+        BIRGameObjects.initOreDict();
+        BIRGameObjects.initMisc();
     }
     @EventHandler
     public void init(FMLInitializationEvent event)

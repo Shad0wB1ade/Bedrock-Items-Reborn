@@ -1,14 +1,18 @@
 package net.shad0wb1ade.bedrockitemsreborn.init;
 
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.world.gen.feature.WorldGenGlowStone1;
 import net.minecraftforge.common.util.EnumHelper;
+import net.shad0wb1ade.bedrockitemsreborn.blocks.*;
 import net.shad0wb1ade.bedrockitemsreborn.items.tools.*;
 import net.shad0wb1ade.bedrockitemsreborn.items.armor.*;
 import net.shad0wb1ade.bedrockitemsreborn.references.Refs;
 import net.shad0wb1ade.core.items.*;
+import net.shad0wb1ade.core.utilities.WorldGenHandler;
 
 public class BIRGameObjects
 {
@@ -63,8 +67,21 @@ public class BIRGameObjects
         GameRegistry.registerItem(BedrockLeggings, Refs.BEDROCK_LEGGINGS);
         GameRegistry.registerItem(BedrockBoots, Refs.BEDROCK_BOOTS);
     }
+    public static final Block BedrockOre = new BedrockOre(Refs.BEDROCK_ORE);
+
     public static void initBlocks()
     {
-
+        // TODO add block of bedrock.
+        GameRegistry.registerBlock(BedrockOre, Refs.BEDROCK_ORE);
+    }
+    public static void initOreDict()
+    {
+        /*
+        TODO add all items to ore dictionary
+         */
+    }
+    public static void initMisc()
+    {
+        GameRegistry.registerWorldGenerator(new WorldGenHandler(), 1);
     }
 }

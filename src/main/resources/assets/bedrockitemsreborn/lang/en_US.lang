@@ -21,3 +21,5 @@ item.bedrockitemsreborn:bedrockHelmet.name=Bedrock Helmet
 item.bedrockitemsreborn:bedrockChestplate.name=Bedrock Chestplate
 item.bedrockitemsreborn:bedrockLeggings.name=Bedrock Leggings
 item.bedrockitemsreborn:bedrockBoots.name=Bedrock Boots
+
+tile.bedrockitemsreborn:bedrockOre.name=Bedrock Ore

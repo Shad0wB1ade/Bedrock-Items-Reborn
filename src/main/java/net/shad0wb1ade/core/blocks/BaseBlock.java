@@ -17,6 +17,7 @@ public class BaseBlock extends Block
         this.setStepSound(soundTypeStone);
         this.setHardness(8.0F);
         this.setResistance(1000.0F);
+        this.setHarvestLevel("pickaxe", 4);
     }
     @Override
     public String getUnlocalizedName()
